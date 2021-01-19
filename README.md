@@ -1,0 +1,2 @@
+# condominio
+Proyecto escolar, condominio
