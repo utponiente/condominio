@@ -1,0 +1,36 @@
+<p>Formulario</p>
+<form >
+  <div class="form-group">
+    <label for="cliente">cliente</label>
+    <input type="text" name="cliente" id="cliente"
+    [(ngModel)]="cita.cliente"
+    class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="clienteId">clienteId</label>
+    <input type="text" name="clienteId" id="clienteId"
+    [(ngModel)]="cita.clienteId"
+    class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="vendedor">vendedor</label>
+    <input type="text" name="vendedor" id="vendedor"
+    [(ngModel)]="cita.vendor"
+    class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="vendedorId" >vendedorId</label>
+    <input type="text" name="vendedorId" id="vendedorId"
+    [(ngModel)]="cita.vendorId"
+    class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="fecha">fecha</label>
+    <input type="date" name="fecha" id="fecha"
+    [(ngModel)]="cita.fecha"
+    class="form-control">
+  </div>
+  <input type="button" value="validar" (click)="guardarInformacion()"/>
+</form>
+<p>{{salida}}</p>
+<p>{{diagnostic}}</p>
