@@ -10,7 +10,7 @@ import { Cita } from '../../cita.model';
 export class CitaCreateComponent implements OnInit {
 
 //Variable accesible en la vista
-  cita:Cita;//=new Cita("","","","", new Date());
+  cita:Cita=new Cita("","","","", new Date());
 
   constructor() { }
 

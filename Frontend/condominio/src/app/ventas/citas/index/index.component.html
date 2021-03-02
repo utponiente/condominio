@@ -1,0 +1,17 @@
+<p>Listado de citas!</p>
+<table>
+  <thead>
+    <tr>
+      <th>Cliente</th>
+      <th>Vendedor</th>
+      <th>Fecha</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cita of citaCollection">
+      <td>{{cita.cliente}}</td>
+      <td>{{cita.vendor}}</td>
+      <td>{{cita.fecha |date:'short' }}</td>
+    </tr>
+  </tbody>
+</table>

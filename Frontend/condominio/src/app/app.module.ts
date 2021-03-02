@@ -6,11 +6,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CitaCreateComponent } from './ventas/citas/cita-create/cita-create.component';
+import { IndexComponent } from './ventas/citas/index/index.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CitaCreateComponent
+    CitaCreateComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
